@@ -16,6 +16,11 @@ Time-to-Collision (TTC) is < 1.5s to prevent longitudinal collisions.
 - **Environment:** Ubuntu 22.04 (ARM64)
   
 ## Results
-The following graph from rqt_plot shows the Kalman Filter fusing noisy Camera (Red) and Radar (Blue) data into a stable Fused state (Cyan).
 
-![Sensor Fusion Results](docs/image (ADAS1).png)
+The following graph from `rqt_plot` demonstrates the **Perception Fusion** logic. By utilizing an Extended Kalman Filter, the system successfully filters out sensor noise to provide a reliable state estimate for the AEB logic.
+
+* **Red:** Camera Data (Simulated Noise)
+* **Blue:** Radar Data
+* **Cyan:** Fused State (EKF Output)
+
+[Sensor Fusion Results](docs/Sensor_fusion_result.png)
