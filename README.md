@@ -14,3 +14,8 @@ Time-to-Collision (TTC) is < 1.5s to prevent longitudinal collisions.
 - **Math Library:** Eigen 3.4
 - **Testing:** GTest (Google Test)
 - **Environment:** Ubuntu 22.04 (ARM64)
+  
+## Results
+The following graph from rqt_plot shows the Kalman Filter fusing noisy Camera (Red) and Radar (Blue) data into a stable Fused state (Cyan).
+
+![Sensor Fusion Results](docs/image (ADAS1).png)
