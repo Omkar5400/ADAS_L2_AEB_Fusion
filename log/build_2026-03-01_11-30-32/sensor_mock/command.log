@@ -1,4 +1,0 @@
-Invoking command in '/home/omkar5400/adas_ws/build/sensor_mock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar5400/adas_ws/build/sensor_mock -- -j6 -l6
-Invoked command in '/home/omkar5400/adas_ws/build/sensor_mock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar5400/adas_ws/build/sensor_mock -- -j6 -l6
-Invoking command in '/home/omkar5400/adas_ws/build/sensor_mock': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar5400/adas_ws/build/sensor_mock
-Invoked command in '/home/omkar5400/adas_ws/build/sensor_mock' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar5400/adas_ws/build/sensor_mock

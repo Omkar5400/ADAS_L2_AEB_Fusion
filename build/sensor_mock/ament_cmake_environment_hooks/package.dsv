@@ -1,4 +1,0 @@
-source;share/sensor_mock/local_setup.bash
-source;share/sensor_mock/local_setup.dsv
-source;share/sensor_mock/local_setup.sh
-source;share/sensor_mock/local_setup.zsh
