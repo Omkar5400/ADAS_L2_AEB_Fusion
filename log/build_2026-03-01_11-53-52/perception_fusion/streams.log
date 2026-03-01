@@ -1,0 +1,28 @@
+[0.006s] Invoking command in '/home/omkar5400/adas_ws/build/perception_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar5400/adas_ws/build/perception_fusion -- -j6 -l6
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target decision_node[0m
+[0.035s] [ 20%] [32mBuilding CXX object CMakeFiles/decision_node.dir/src/decision_node.cpp.o[0m
+[0.035s] [ 80%] Built target fusion_node
+[3.363s] [100%] [32m[1mLinking CXX executable decision_node[0m
+[3.551s] [100%] Built target decision_node
+[3.555s] Invoked command in '/home/omkar5400/adas_ws/build/perception_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar5400/adas_ws/build/perception_fusion -- -j6 -l6
+[3.559s] Invoking command in '/home/omkar5400/adas_ws/build/perception_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar5400/adas_ws/build/perception_fusion
+[3.561s] -- Install configuration: ""
+[3.561s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/lib/perception_fusion/fusion_node
+[3.561s] -- Installing: /home/omkar5400/adas_ws/install/perception_fusion/lib/perception_fusion/decision_node
+[3.564s] -- Set runtime path of "/home/omkar5400/adas_ws/install/perception_fusion/lib/perception_fusion/decision_node" to ""
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/ament_index/resource_index/package_run_dependencies/perception_fusion
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/ament_index/resource_index/parent_prefix_path/perception_fusion
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/ament_prefix_path.sh
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/ament_prefix_path.dsv
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/path.sh
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/path.dsv
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.bash
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.sh
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.zsh
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.dsv
+[3.564s] -- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/package.dsv
+[3.564s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/ament_index/resource_index/packages/perception_fusion
+[3.565s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/cmake/perception_fusionConfig.cmake
+[3.565s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/cmake/perception_fusionConfig-version.cmake
+[3.565s] -- Up-to-date: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/package.xml
+[3.565s] Invoked command in '/home/omkar5400/adas_ws/build/perception_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar5400/adas_ws/build/perception_fusion

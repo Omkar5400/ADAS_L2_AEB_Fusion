@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (-) JobUnselected: {'identifier': 'sensor_mock'}
+[0.000468] (perception_fusion) JobQueued: {'identifier': 'perception_fusion', 'dependencies': OrderedDict()}
+[0.000479] (perception_fusion) JobStarted: {'identifier': 'perception_fusion'}
+[0.003607] (perception_fusion) JobProgress: {'identifier': 'perception_fusion', 'progress': 'cmake'}
+[0.004002] (perception_fusion) Command: {'cmd': ['/usr/bin/cmake', '/home/omkar5400/adas_ws/src/perception_fusion', '-DCMAKE_INSTALL_PREFIX=/home/omkar5400/adas_ws/install/perception_fusion'], 'cwd': '/home/omkar5400/adas_ws/build/perception_fusion', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omkar5400'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar5400'), ('OLDPWD', '/home/omkar5400/adas_ws/src/perception_fusion'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar5400'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar5400'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkarmestry:@/tmp/.ICE-unix/1476,unix/omkarmestry:/tmp/.ICE-unix/1476'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93b108e7_8884_4959_ba6e_67386308d31e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JSYKL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar5400/adas_ws/build/perception_fusion'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038916] (perception_fusion) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.064849] (perception_fusion) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.067905] (perception_fusion) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.097109] (perception_fusion) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.099894] (-) TimerEvent: {}
+[0.100545] (perception_fusion) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.100741] (perception_fusion) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.100969] (perception_fusion) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.102484] (perception_fusion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.135715] (perception_fusion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.139065] (perception_fusion) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.139217] (perception_fusion) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.139432] (perception_fusion) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.140553] (perception_fusion) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200024] (perception_fusion) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.200156] (-) TimerEvent: {}
+[0.235305] (perception_fusion) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.251340] (perception_fusion) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.253056] (perception_fusion) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.256200] (perception_fusion) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.260739] (perception_fusion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.267046] (perception_fusion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.285257] (perception_fusion) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.286279] (perception_fusion) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.301351] (-) TimerEvent: {}
+[0.317557] (perception_fusion) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.329454] (perception_fusion) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.347821] (perception_fusion) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.350942] (perception_fusion) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.378982] (perception_fusion) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.379195] (perception_fusion) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.401455] (-) TimerEvent: {}
+[0.407548] (perception_fusion) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.408082] (perception_fusion) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.432664] (perception_fusion) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.438913] (perception_fusion) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.475051] (perception_fusion) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.475234] (perception_fusion) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/omkar5400/adas_ws/src/perception_fusion/include\n'}
+[0.475290] (perception_fusion) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.475364] (perception_fusion) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.475649] (perception_fusion) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.475673] (perception_fusion) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.475814] (perception_fusion) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.476298] (perception_fusion) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.480723] (perception_fusion) StdoutLine: {'line': b'-- Generating done\n'}
+[0.482479] (perception_fusion) StdoutLine: {'line': b'-- Build files have been written to: /home/omkar5400/adas_ws/build/perception_fusion\n'}
+[0.487022] (perception_fusion) CommandEnded: {'returncode': 0}
+[0.487199] (perception_fusion) JobProgress: {'identifier': 'perception_fusion', 'progress': 'build'}
+[0.487216] (perception_fusion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omkar5400/adas_ws/build/perception_fusion', '--', '-j6', '-l6'], 'cwd': '/home/omkar5400/adas_ws/build/perception_fusion', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omkar5400'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar5400'), ('OLDPWD', '/home/omkar5400/adas_ws/src/perception_fusion'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar5400'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar5400'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkarmestry:@/tmp/.ICE-unix/1476,unix/omkarmestry:/tmp/.ICE-unix/1476'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93b108e7_8884_4959_ba6e_67386308d31e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JSYKL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar5400/adas_ws/build/perception_fusion'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.501593] (-) TimerEvent: {}
+[0.507237] (perception_fusion) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fusion_node.dir/src/fusion_node.cpp.o\x1b[0m\n'}
+[0.507327] (perception_fusion) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/fusion_node.dir/src/kalman_filter.cpp.o\x1b[0m\n'}
+[0.602313] (-) TimerEvent: {}
+[0.702885] (-) TimerEvent: {}
+[0.804226] (-) TimerEvent: {}
+[0.905958] (-) TimerEvent: {}
+[1.006330] (-) TimerEvent: {}
+[1.107591] (-) TimerEvent: {}
+[1.207824] (-) TimerEvent: {}
+[1.308059] (-) TimerEvent: {}
+[1.409673] (-) TimerEvent: {}
+[1.510743] (-) TimerEvent: {}
+[1.611042] (-) TimerEvent: {}
+[1.712108] (-) TimerEvent: {}
+[1.812349] (-) TimerEvent: {}
+[1.912887] (-) TimerEvent: {}
+[2.013168] (-) TimerEvent: {}
+[2.115093] (-) TimerEvent: {}
+[2.215537] (-) TimerEvent: {}
+[2.315788] (-) TimerEvent: {}
+[2.417333] (-) TimerEvent: {}
+[2.518332] (-) TimerEvent: {}
+[2.618918] (-) TimerEvent: {}
+[2.719246] (-) TimerEvent: {}
+[2.820758] (-) TimerEvent: {}
+[2.921475] (-) TimerEvent: {}
+[3.021730] (-) TimerEvent: {}
+[3.122323] (-) TimerEvent: {}
+[3.223229] (-) TimerEvent: {}
+[3.323479] (-) TimerEvent: {}
+[3.423700] (-) TimerEvent: {}
+[3.523929] (-) TimerEvent: {}
+[3.624152] (-) TimerEvent: {}
+[3.724361] (-) TimerEvent: {}
+[3.824558] (-) TimerEvent: {}
+[3.925230] (-) TimerEvent: {}
+[4.025990] (-) TimerEvent: {}
+[4.126918] (-) TimerEvent: {}
+[4.227115] (-) TimerEvent: {}
+[4.327318] (-) TimerEvent: {}
+[4.427523] (-) TimerEvent: {}
+[4.527742] (-) TimerEvent: {}
+[4.627945] (-) TimerEvent: {}
+[4.728145] (-) TimerEvent: {}
+[4.745736] (perception_fusion) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fusion_node\x1b[0m\n'}
+[4.828238] (-) TimerEvent: {}
+[4.928449] (-) TimerEvent: {}
+[4.991449] (perception_fusion) StdoutLine: {'line': b'[100%] Built target fusion_node\n'}
+[4.996067] (perception_fusion) CommandEnded: {'returncode': 0}
+[4.996311] (perception_fusion) JobProgress: {'identifier': 'perception_fusion', 'progress': 'install'}
+[4.999213] (perception_fusion) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omkar5400/adas_ws/build/perception_fusion'], 'cwd': '/home/omkar5400/adas_ws/build/perception_fusion', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omkar5400'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar5400'), ('OLDPWD', '/home/omkar5400/adas_ws/src/perception_fusion'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar5400'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar5400'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkarmestry:@/tmp/.ICE-unix/1476,unix/omkarmestry:/tmp/.ICE-unix/1476'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93b108e7_8884_4959_ba6e_67386308d31e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JSYKL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar5400/adas_ws/build/perception_fusion'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.001368] (perception_fusion) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.001539] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/lib/perception_fusion/fusion_node\n'}
+[5.006212] (perception_fusion) StdoutLine: {'line': b'-- Set runtime path of "/home/omkar5400/adas_ws/install/perception_fusion/lib/perception_fusion/fusion_node" to ""\n'}
+[5.006451] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/ament_index/resource_index/package_run_dependencies/perception_fusion\n'}
+[5.006543] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/ament_index/resource_index/parent_prefix_path/perception_fusion\n'}
+[5.006619] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/ament_prefix_path.sh\n'}
+[5.006658] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/ament_prefix_path.dsv\n'}
+[5.006765] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/path.sh\n'}
+[5.006799] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/environment/path.dsv\n'}
+[5.006840] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.bash\n'}
+[5.006882] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.sh\n'}
+[5.006983] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.zsh\n'}
+[5.007051] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/local_setup.dsv\n'}
+[5.007107] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/package.dsv\n'}
+[5.007146] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/ament_index/resource_index/packages/perception_fusion\n'}
+[5.007244] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/cmake/perception_fusionConfig.cmake\n'}
+[5.007277] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/cmake/perception_fusionConfig-version.cmake\n'}
+[5.007299] (perception_fusion) StdoutLine: {'line': b'-- Installing: /home/omkar5400/adas_ws/install/perception_fusion/share/perception_fusion/package.xml\n'}
+[5.008245] (perception_fusion) CommandEnded: {'returncode': 0}
+[5.014741] (perception_fusion) JobEnded: {'identifier': 'perception_fusion', 'rc': 0}
+[5.015112] (-) EventReactorShutdown: {}

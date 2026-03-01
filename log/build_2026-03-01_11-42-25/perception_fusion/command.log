@@ -1,0 +1,6 @@
+Invoking command in '/home/omkar5400/adas_ws/build/perception_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omkar5400/adas_ws/src/perception_fusion -DCMAKE_INSTALL_PREFIX=/home/omkar5400/adas_ws/install/perception_fusion
+Invoked command in '/home/omkar5400/adas_ws/build/perception_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omkar5400/adas_ws/src/perception_fusion -DCMAKE_INSTALL_PREFIX=/home/omkar5400/adas_ws/install/perception_fusion
+Invoking command in '/home/omkar5400/adas_ws/build/perception_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar5400/adas_ws/build/perception_fusion -- -j6 -l6
+Invoked command in '/home/omkar5400/adas_ws/build/perception_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar5400/adas_ws/build/perception_fusion -- -j6 -l6
+Invoking command in '/home/omkar5400/adas_ws/build/perception_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar5400/adas_ws/build/perception_fusion
+Invoked command in '/home/omkar5400/adas_ws/build/perception_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar5400/adas_ws/build/perception_fusion
