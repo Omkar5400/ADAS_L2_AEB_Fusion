@@ -22,7 +22,7 @@ The Extended Kalman Filter (EKF) sensor fusion logic was benchmarked across **25
 
 ### 1. State Estimation Performance (MAE Evaluation)
 
-![Sensor Fusion MAE Plot](docs/assets/rmse_plot.png)
+![Sensor Fusion MAE Plot](docs/rmse_plot.png)
 
 - **Longitudinal Position MAE:** Cut by **25%** ($0.28\text{ m} \rightarrow 0.21\text{ m}$) compared to a radar-only Kalman filter baseline.
 - **Tracking Stability:** Reduced target ID switches from **18 to 3** across 25 simulated test runs by applying Euclidean distance gating ($< 2.0\text{ m}$).
